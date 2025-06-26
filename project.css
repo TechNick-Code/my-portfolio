@@ -143,9 +143,15 @@ footer {
     color: #fff
 }
 
+
 .footer-left {
     display: flex;
     gap: 3em
+}
+
+.left a {
+    text-decoration: none;
+    color: #fff
 }
 
 .footer-left .left {
