@@ -121,6 +121,11 @@ span {
     gap: 10px
 }
 
+.hcj img {
+    width: 18px;
+    height: 17px
+}
+
 .html {
     color: rgb(226, 139, 0);    
 }
