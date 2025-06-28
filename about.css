@@ -129,65 +129,85 @@ span {
 
 }
 
+.snowman-image {
+    background-image: url(/images/snowman.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2em;
 
-
-
-
-
-
-
-
-
-
- 
+}
 
 .about-section {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     padding: 2em 10em;
     margin: 10px 0;
     width: 100%
-   
 }
 
-.about-section h2 {
+.second-row {
+    display: flex;
+    gap: 5em
+}
+
+.what-i-do,
+.experience {
+    width: 50%
+}
+
+.experience h2,
+.what-i-do h2 {
     color: #0F1B2F;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 1.8em;
     padding-bottom: 8px;
-    width: 20%;
-    display: inline-block;
 }
 
-.about-section p {
+.experience p,
+.experience,
+.philosophy,
+.what-i-do p {
     font-size: 1.05em;
-    color: #555;
-    width: 70%;
-    
+    color: #555;    
 }
 
-.cta-section {
-    text-align: center;
-    margin: 40px 0;
+.about-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 10em;
+    margin: 10px 0;
+    width: 100%;
+    gap:5em
 }
 
-.button-bottom {
-background-color: #0F1B2F;
-    color: white;
-    border: none;
-    padding: 14px 28px;
-    font-size: 1.1em;
-    margin: 10px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.snowman-img {
+    background-image: url(/images/snowman.jpg);
+    width: 100%;
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2em;
 }
 
-.button-bottom:hover,
-button:hover {
-    background-color: #11223f;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px #0f1b2f3c
+.philosophy {
+    width: 100%
+}
+
+.flexx {
+    display: flex;
+    width: 100%;
+    padding: 0 10em 7em;
+    gap: 5em;
+    margin-top: 2em
+}
+
+.philosophy h2,
+.about-section3 h2 {
+    margin-bottom: 1em;
+    color: #0F1B2F
 }
 
 footer {

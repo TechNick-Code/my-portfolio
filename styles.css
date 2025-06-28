@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: rgb(248, 254, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f9f9f9, #e0f7fa);
 }
 
 header {
@@ -98,6 +99,7 @@ span {
     justify-content: space-between;
     width: 100%;
     gap: 5em;
+    color: #333
 }
 
 .text button {
