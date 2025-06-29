@@ -1,15 +1,13 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, #f9f9f9, #e0f7fa);
-    color: #333;
-    margin: 0;
-    padding: 0;
+    /* background: linear-gradient(to right, #f9f9f9, #e0f7fa); */
+    background-color: #101828;
 }
 
 header {
@@ -19,7 +17,7 @@ header {
     width: 100%;
     height: 10vh;
     padding: 0 10em;
-    border-bottom: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgba(168, 168, 168, 0.282);
 }
 
 .top-logo{
@@ -33,7 +31,7 @@ header {
 }
 
 .logo h3 {
-    color: #0F1B2F;
+    color: #fff;
     letter-spacing: -1px;
 }
 
@@ -60,15 +58,19 @@ span {
 
 .nav ul li a {
     text-decoration: none;
-    color: #0F1B2F;
+    color: #fff;
+    align-items: center;
+    transition: all ease .3s;
 }
 
-.nav li:hover {
-    text-decoration: underline;
+.nav li a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
 }
 
-.nav .active {
-    text-decoration: underline;
+.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff
 }
 
 .support button {
@@ -77,7 +79,6 @@ span {
     background-color: #0F1B2F;
     color: #fff;
     border-radius: 10px;
-    transition: all ease .3s
 }
 
 .support button:hover {
@@ -86,12 +87,12 @@ span {
 
 .flex-container {
     display: flex;
-    padding: 2.5em 10em
+    padding: 3em 10em
 }
 
 .left {
     width: 50%;
-    margin-right: 2.5em;
+    margin-right: 3em;
 }
 
 .arrow-flex {
@@ -101,31 +102,53 @@ span {
     margin-bottom: 1.5em;
 }
 
+.arrow-flex h2 {
+    color: #fff
+}
+
 .arrow-flex img {
-    width: 8vw;
+    width: 6vw;
+}
+
+.about-me {
+    display: flex;
+    gap: 1em
+}
+
+.aboutme-icon {
+    width: 2em;
+    color: rgb(125, 139, 211)
 }
 
 .my-name h1{
     font-size: 6em;
     line-height: 1;
     margin-bottom: 0.2em;
+    color: #fff
+}
+
+.left p {
+    color: rgb(168, 168, 168)
 }
 
 .dev {
-    border: 3px solid #0F1B2F;
+    border: 3px solid #fff;
     padding: 5px 15px;
     border-radius: 10px;
     font-size: 1.5em;
     display: inline-block;
     margin-bottom: 1.5em;
+    color: #fff;
 }
 
 .right {
-    width: 50%
+    width: 45%;
 }
 
 .right img {
     width: 100%;
+    height: 55vh;
+    border-radius: 1em;
 
 }
 
@@ -137,6 +160,7 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2em;
+    border-radius: 1em;
 
 }
 
@@ -159,7 +183,7 @@ span {
 
 .experience h2,
 .what-i-do h2 {
-    color: #0F1B2F;
+    color: #fff;
     margin-bottom: 5px;
     font-size: 1.8em;
     padding-bottom: 8px;
@@ -170,7 +194,7 @@ span {
 .philosophy,
 .what-i-do p {
     font-size: 1.05em;
-    color: #555;    
+    color: rgb(168, 168, 168);    
 }
 
 .about-section2 {
@@ -207,15 +231,20 @@ span {
 .philosophy h2,
 .about-section3 h2 {
     margin-bottom: 1em;
-    color: #0F1B2F
+    color: #fff
+}
+
+.about-section3 p {
+    color: rgb(168, 168, 168)
 }
 
 footer {
-    background-color: #0F1B2F;
+    background-color: #101828;
     display: flex;
     justify-content: space-between;
     padding: 4em 10em;
-    color: #fff
+    color: #fff;
+     border-top: 1px solid rgba(168, 168, 168, 0.282)
 }
 
 
