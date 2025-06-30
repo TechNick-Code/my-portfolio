@@ -206,7 +206,7 @@ span {
 }
 
 .hero-image .img {
-    background-image: url(./images/hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: cover;
     width: 32%;
     height: 40vh;
@@ -219,25 +219,25 @@ span {
     transition: all ease-in-out .7s;
 }
 .hero-image .img1 {
-    background-image: url(./images/hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: cover;
     width: 25%;
     height: 40vh;
 }
 .hero-image .img2 {
-    background-image: url(./images/hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: cover;
     width: 20%;
     height: 40vh;
 }
 .hero-image .img3 {
-    background-image: url(./images/hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: cover;
     width: 14%;
     height: 40vh;
 }
 .hero-image .img4 {
-    background-image: url(./images/hero-img.jpg);
+    background-image: url(images/hero-img.jpg);
     background-size: cover;
     width: 8%;
     height: 40vh;
