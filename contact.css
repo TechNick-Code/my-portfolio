@@ -73,119 +73,159 @@ span {
     border-bottom: 2px solid #fff
 }
 
-.sections {
-    padding: 3em 10em;
+.get-in-touch {
     display: flex;
+    padding: 3em 10em 2em;
+    gap: 1em;
+    color: rgb(168, 168, 168);
     flex-direction: column;
-    gap: 4em
 }
-
-.my-project {
+.icon-flex {
     display: flex;
-    gap: 1em
+    gap: 1em;
+    color: #fff
 }
 
-.my-project .folder{
+.get-in-touch h1 {
+    font-size: 1.6em
+}
+
+.contacticon {
     width: 2em;
-    color: rgb(125, 139, 211)
-
+    color:rgb(125, 139, 211)
 }
 
-.sections h1{
+.flex-container {
+    display: flex;
+    padding: 1em 10em;
+    gap: 3.4em
+}
+
+.flex-container .input-field {
+    width: 100%;
+    background-color: #a5a5a51a;
+    border-radius: 15px;
+    border: 2px solid #4d85e617;
+    backdrop-filter: blur(20%);
+    padding: 1.8em;
+    color: #fff;
+}
+
+.input-field input {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #a5a5a524;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #fff
 }
 
-.section {
-    color: #0f2f1f;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: flex-start;
-}
-
-.first-card {
-    width: 100%;
-    flex: 0 0 calc(49.744% - 1rem);
-    gap: 1em;
+.input-field form .email {
     display: flex;
     flex-direction: column;
-    color: #0F1B2F;
-    border-radius: 15px;
-    border: 2px solid #0f1b2f38
+    margin: 1.5em 0;
 }
 
-.image {
-    background-image: url(/images/snowman.jpg);
-    width: 100%;
-    height: 40vh;
-    border-radius: 1em;
-    background-position: 10% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.image:hover {
-    transform: scale(1.05);
-    transition: all ease .5s;
-}
-
-.text-card {
-    background-color: #a5a5a56a;
-    border-radius: 1em;
-    gap: 1em;
-    padding: 1.5em;
+textarea {
+    height: 17vh;
+    background-color:#a5a5a524;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #fff
 }
 
-.text-card h3 {
-    margin-bottom: 0.5em;
-}
-
-.first-card:hover {
-    background-color: #101828;
-    color:#fff;
-    transition: all ease-in .3s;
-}
-
-.text-card a {
-    text-decoration: none;
+textarea:focus,
+input:focus {
+    outline: 2px solid rgb(125, 139, 211);
     color: #fff;
+}
+
+.send-message-btn {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 7px;
     background-color: rgb(125, 139, 211);
-    display: inline-block;
-    padding: 9px 20px;
-    border-radius: 0.5em;
-    margin: 1.3em 0
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
 }
 
-.language {
+.flex-container .input-field form {
     display: flex;
-    gap: 10px;
-    align-items: baseline;
+    flex-direction: column;
 }
 
-.hcj {
+.right-field {
+    width: 100%;
     display: flex;
-    gap: 10px
+    flex-direction: column;
+    gap: 1.3em
 }
 
-.hcj img {
-    width: 18px;
-    height: 17px
+.right-field .socials {
+    background-color: #a5a5a51a;
+    padding: 2.2em;
+    border-radius: 15px;
+    border: 2px solid #4d85e617;
+    backdrop-filter: blur(20%);
 }
 
-.html {
-    color: rgb(226, 139, 0);    
+.socials .icon {
+    width: 1.8em;
+    color: rgb(125, 139, 211);
 }
 
-.css {
-    color: rgb(10, 122, 197)
+.socials ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.js {
-    width: 15px;
-    margin-bottom: 20px;
-    background-color: yellow
+.socials li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
+.socials h2 {
+    color: #fff;
+    margin-bottom: 15px
+ }
+
+ .socials a {
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+    letter-spacing: 1px;
+ }
+
+.right-field .quote {
+    background-color: #a5a5a51a;
+    padding: 2.2em;
+    border-radius: 15px;
+    border: 2px solid #4d85e617;
+    backdrop-filter: blur(20%);
+}
+
+.quote h2 {
+    color: #fff;
+    margin-bottom: 15px
+}
+
+.quote p {
+    color: rgb(168, 168, 168);
+}
+
+
+
 
 footer {
     background-color: #101828;
