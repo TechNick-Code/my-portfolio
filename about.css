@@ -73,18 +73,6 @@ span {
     border-bottom: 2px solid #fff
 }
 
-.support button {
-    padding: 1em 3em;
-    border: none;
-    background-color: #0F1B2F;
-    color: #fff;
-    border-radius: 10px;
-}
-
-.support button:hover {
-    background-color: #0f1b2fdb;
-}
-
 .flex-container {
     display: flex;
     padding: 3em 10em
@@ -120,10 +108,14 @@ span {
     color: rgb(125, 139, 211)
 }
 
+.my-name {
+    margin-top: 2em;
+}
+
 .my-name h1{
-    font-size: 6em;
+    font-size: 5em;
     line-height: 1;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.3em;
     color: #fff
 }
 
@@ -287,8 +279,9 @@ footer {
 }
 
 .social-icons {
-    align-content: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em
 }
 
 .social-icons ul {
