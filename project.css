@@ -10,6 +10,35 @@ body {
     background-color: #101828;
 }
 
+.body {
+    position: relative;
+    background-color: #1018288c;
+    backdrop-filter: blur(55px);
+}
+
+body::after {
+    position: fixed;
+    content: "";
+    width: 20vw;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: rgba(66, 222, 92, 0.463);
+    top: 15%;
+    left: 5%;
+    z-index: -99
+}
+body::before {
+    position: fixed;
+    content: "";
+    width: 20vw;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: rgba(125, 139, 211, 0.625);
+    top: 40%;
+    right: 10%;
+    z-index: -99
+}
+
 header {
     display: flex;
     justify-content: space-between;
