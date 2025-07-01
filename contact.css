@@ -10,6 +10,35 @@ body {
     background-color: #101828;
 }
 
+.body {
+    position: relative;
+    background-color: #1018288c;
+    backdrop-filter: blur(55px);
+}
+
+body::after {
+    position: fixed;
+    content: "";
+    width: 20vw;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: rgba(125, 211, 139, 0.4);
+    top: 15%;
+    left: 5%;
+    z-index: -99
+}
+body::before {
+    position: fixed;
+    content: "";
+    width: 20vw;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: rgba(125, 139, 211, 0.537);
+    top: 40%;
+    right: 10%;
+    z-index: -99
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -66,6 +95,10 @@ span {
 .nav li a:hover {
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
+}
+
+.hamburger {
+    display: none
 }
 
 .active {
@@ -295,3 +328,150 @@ footer {
     color: #ffffff72;
     font-size: 20px
 }
+
+@media (max-width: 768px) {
+    header{
+        padding: 0 2em
+    }
+
+    .get-in-touch {
+        padding: 3em 0 2em;
+        text-align: center;
+    }
+
+    .icon-flex {
+        justify-content: center;
+    }
+
+    .contacticon {
+        display: none;
+    }
+
+    .flex-container {
+        padding: 2em;
+        flex-direction: column;
+        gap: 1.3em
+    }
+
+    footer {
+        margin-top: 2em;
+        flex-direction: column;
+        padding: 3em 2em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .social-icons ul {
+        margin-top: 2em
+    }
+
+    .text {
+        display: none;
+    }
+}
+
+@media (max-width: 426px){
+    header {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .nav ul {
+        display: none
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .menu {
+        width: 2em;
+        color: #fff
+    }
+    
+    #dropNav {
+        display:flex;
+        position: absolute;
+        top: 2em;
+        right: -22em;
+        width: 20em;
+        height: 200px;
+        list-style: none;
+        background-color: rgb(125, 139, 211);
+        flex-direction: column;
+        gap: 1em;
+        padding: 1em;
+        overflow: hidden;
+        border-radius: 10px 0 10px 10px;
+        overflow: hidden;
+        z-index: 999;
+        transition: right 0.3s cubic-bezier(.77,0,.18,1);
+        backdrop-filter: blur(30px);
+    }
+    
+    #dropNav:not(.active) {
+        pointer-events: none;
+    }
+
+    #dropNav.active {
+        transition: right 0.3s cubic-bezier(.77,0,.18,1);
+        display: block;
+        right: 0
+    }
+
+    .hamburger li {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .hamburger li a {
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        padding: 0.7em 2em;
+    }
+
+    .hamburger li a:hover {
+        background-color: #101828;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .active {
+        border: none;
+    }
+
+    .get-in-touch p{
+        padding: 0 4em
+    }
+
+    .flex-container {
+        padding: 1em
+    }
+
+    .footer-left {
+        display: block;
+    }
+    
+    .footer-left .left {
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    .nav-links ul{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .social-icons ul {
+        margin-top: 1.5em
+    }
+}
+

@@ -200,7 +200,7 @@ span {
 }
 
 .snowman-img {
-    background-image: url(/images/snowman.jpg);
+    background-image: url(images/snowman.jpg);
     width: 100%;
     height:50vh;
     background-repeat: no-repeat;
