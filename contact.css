@@ -328,7 +328,7 @@ footer {
     font-size: 20px
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header{
         padding: 0 2em
     }
@@ -370,7 +370,7 @@ footer {
     }
 }
 
-@media (max-width: 426px){
+@media screen and (max-width: 515px){
     body,
     .body {
         overflow-x: hidden;
