@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../nicks-website/favcon.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="contact.css"> 
     <link rel="icon" href="images/favcon.svg">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,27 +13,46 @@
 </head>
 <body>
     <div class="body">
-    <header>
+   <header>
         <a href="index.html" class="top-logo">
             <div class="logo">
                 <img src="images/favcon.svg" alt="Logo" width="50" height="50">
-                <h3>Technick-<span>code</span></h3>
+                <h3>Technick-<span>codes</span></h3>
             </div>
         </a>
 
         <div class="nav">
-            <ul>
-                <li><a href="project.html" class="">My_Projects</a></li>
+            <ul id="dropNavi">
+                <li><a href="project.html">My_Projects</a></li>
                 <li><a href="about.html">About_Me</a></li>
                 <li><a href="contact.html">Contact_Me</a></li>
             </ul>
-
+            
+            
+        </div>
+        <div class="hamburger" id="navBar">
+            <div class="ham-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="menu" id="menu">
+                    <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z">   
+                    </path>
+                </svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="menu" id="cancelMenu">
+                    <path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z">
+                    </path>
+                </svg> -->
+            </div>
+            <ul id="dropNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">My_Projects</a></li>
+                <li><a href="about.html">About_Me</a></li>
+                <li><a href="contact.html" class="">Contact_Me</a></li>
+            </ul>
         </div>
     </header>
 
     <div class="hero">
         <h2>Hi there, I'm Nicholas Johnson</h2>
-        <h1>FRONT-END <span id="typewriter"></span></h1>
+        <h1>FRONT-END <br><span id="typewriter"></span></h1>
         <div class="text">
             <div class="left-text">
                 <p>I'm currently a self taught experienced front-end developer
@@ -40,12 +60,12 @@
                     websites and applications. 
                 </p>
             </div>
-            <div class="right-text">
+            <!-- <div class="right-text">
                 <p>I'm a passionate designer with years of
                     experience who uses research, data, and thoughtful
                     design to create delightful products that scale.
                 </p>
-            </div>
+            </div> -->
             <a href="contact.html">Hire me!</a>
         </div>
         <div class="image-section">
@@ -60,16 +80,16 @@
             <div class="experience">
                 <div class="social-icon">
                     <ul>
-                        <li><a href="" class="green"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
-                        <li><a href="" class="pink"><i class="fa fa-instagram"></i> Instagram</a></li>
-                        <li><a href="" class="blue"><i class="fa fa-telegram"></i>Telegram</a></li>
-                        <li><a href="" class="black"><i class="fa fa-github"></i>Github</a></li>
-                        <li><a href="" class="pink"><i class="fa fa-dribbble"></i>Dribbble</a></li>
+                        <li><a href="" class="green"><i class="fa fa-whatsapp"></i><p>Whatsapp</p></a></li>
+                        <li><a href="" class="pink"><i class="fa fa-instagram"></i><p>Instagram</p></a></li>
+                        <li><a href="" class="blue"><i class="fa fa-telegram"></i><p>Telegram</p></a></li>
+                        <li><a href="" class="black"><i class="fa fa-github"></i><p>Github</p></a></li>
+                        <li><a href="" class="pink"><i class="fa fa-dribbble"></i><p>Dribbble</p></a></li>
                     </ul>
                 </div>
 
                 <div class="years">
-                     <h3><span>2</span>Years of Experience</h3>
+                     <h3><span>2</span>Years Experience</h3>
                 </div>
             </div>
         </div>
@@ -78,8 +98,8 @@
     </div>
 
     <div class="my-skills">
-        <div class="my-skill">
-        </div>
+        <!-- <div class="my-skill">
+        </div> -->
         <h1>My Skills</h1>
         <div class="tools">
             <ul>
@@ -102,7 +122,7 @@
     </div>
 
     <div class="assist">
-        <div class="text">
+        <div class="texxt">
             <h1>How Can I <span>Assist You?</span></h1>
         </div>
         <div class="card">
@@ -215,6 +235,7 @@
     </footer>
 </div>
 <script src="index.js"></script>
+<script src="contact.js"></script>
 </body>
 
 </html>
