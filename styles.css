@@ -559,7 +559,7 @@ footer {
     font-size: 20px
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .hero {
         padding: 3em 2em;
     }
@@ -657,7 +657,7 @@ footer {
         
 }
 
-@media (max-width: 515px){
+@media screen and (max-width: 515px){
     .hero {
         padding: 2em 1em;
         text-align: center;

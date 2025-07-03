@@ -327,7 +327,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .flexx-container {
         width: 100%;
         padding: 3em 2em;
@@ -369,13 +369,9 @@ footer {
         padding: 0.5em 2em;
         margin-bottom: 5em;
     }
-
-    footer {
-        padding: em
-    }
 }
 
-@media (max-width: 426px){
+@media screen and (max-width: 515px){
     .flexx-container {
         flex-direction: column;
         padding: 1em

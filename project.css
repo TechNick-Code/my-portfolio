@@ -293,7 +293,7 @@ footer {
     font-size: 20px
 }
 
-@media (max-width: 769px){
+@media screen and (max-width: 769px){
     body,
     .body {
         overflow-x: hidden;
@@ -337,7 +337,7 @@ footer {
     }
 }
 
-@media (max-width: 426px){
+@media screen and (max-width: 515px){
     .my-project {
         justify-content: center;
     }
@@ -354,10 +354,6 @@ footer {
 
     .my-project p {
         color: rgb(168, 168, 168);
-    }
-
-    .sections {
-
     }
 
     .section {
