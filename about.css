@@ -103,12 +103,12 @@ span {
     border-bottom: 2px solid #fff
 }
 
-.flex-container {
+.flexx-container {
     display: flex;
     padding: 3em 10em
 }
 
-.left {
+.leftt {
     width: 50%;
     margin-right: 3em;
 }
@@ -149,7 +149,7 @@ span {
     color: #fff
 }
 
-.left p {
+.leftt p {
     color: rgb(168, 168, 168)
 }
 
@@ -170,7 +170,6 @@ span {
     border-radius: 1em;
     background-size: cover;
     background-position: 50% 20%;
-
 }
 
 .snowman-image {
@@ -182,7 +181,6 @@ span {
     background-size: cover;
     margin-bottom: 2em;
     border-radius: 1em;
-
 }
 
 .about-section {
@@ -199,7 +197,7 @@ span {
 
 .what-i-do,
 .experience {
-    width: 50%
+    width: 100%
 }
 
 .experience h2,
@@ -331,16 +329,98 @@ footer {
 
 
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
+    .flexx-container {
+        width: 100%;
+        padding: 3em 2em;
+        gap: 2em;
     }
 
-    .about-section {
-        padding: 20px;
+    .leftt {
+        margin-right: 1em;
+        width: 100%;
     }
 
-    button {
-        padding: 12px 20px;
+    .my-name h1 {
+        font-size: 3.5em;
+    }
+
+    .dev {
         font-size: 1em;
+    }
+
+    .right-img {
+        width: 100%
+    }
+
+    .second-row {
+        gap: 3em
+    }
+
+    .about-section,
+    .about-section2 {
+        padding: 2em;
+    }
+    
+    .about-section2 {
+        gap: 2.5em
+    }
+
+    .flexx {
+        margin-top: 0;
+        padding: 0.5em 2em;
+        margin-bottom: 5em;
+    }
+
+    footer {
+        padding: em
+    }
+}
+
+@media (max-width: 426px){
+    .flexx-container {
+        flex-direction: column;
+        padding: 1em
+    }
+
+    .arrow-flex {
+        margin-top: 2em;
+        justify-content: center;
+    }
+
+    .about-section,
+    .about-section2,
+    .flexx {
+        padding: 1em
+    }
+
+    .what-i-do h2,
+    .experience h2,
+    .philosophy h2,
+    .about-section3 {
+        margin-bottom: 12px;
+    }
+
+    .aboutme-icon {
+        display: none;
+    }
+
+    .arrow-flex img {
+        display: none;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .second-row {
+        flex-direction: column;
+    }
+
+    .about-section2 .snowman-img {
+        display: none;
+    }
+
+    .flexx {
+        margin-bottom: 2em;
     }
 }

@@ -111,13 +111,22 @@ span {
 
 .my-project {
     display: flex;
+    flex-direction: column;
     gap: 1em
+}
+
+.project-header {
+    gap: 1em;
+    display: flex;
+}
+
+.here-are-some {
+    color: rgb(168, 168, 168);
 }
 
 .my-project .folder{
     width: 2em;
     color: rgb(125, 139, 211)
-
 }
 
 .sections h1{
@@ -283,4 +292,80 @@ footer {
     text-decoration: none;
     color: #ffffff72;
     font-size: 20px
+}
+
+@media (max-width: 769px){
+    body,
+    .body {
+        overflow-x: hidden;
+    }
+    header {
+        padding: 0 1em
+    }
+
+    .my-project {
+        text-align: center;
+        margin-top: 2em
+    }
+
+    .folder {
+        display: none;
+    }
+
+    .project-header {
+        justify-content: center;
+    }
+
+    .sections {
+        padding: 1em;
+    }
+
+    footer {
+        margin-top: 2em;
+        flex-direction: column;
+        padding: 3em 2em;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .social-icons ul {
+        margin-top: 2em
+    }
+
+    .text {
+        display: none;
+    }
+}
+
+@media (max-width: 426px){
+    .my-project {
+        justify-content: center;
+    }
+
+    .folder {
+        display: none;
+    }
+
+    .my-project {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .my-project p {
+        color: rgb(168, 168, 168);
+    }
+
+    .sections {
+
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .first-card {
+        gap: 0.5em
+    }
 }

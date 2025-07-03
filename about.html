@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../nicks-website/favcon.svg" type="image/x-icon">
     <link rel="stylesheet" href="about.css"> 
+    <link rel="stylesheet" href="contact.css"> 
     <link rel="icon" href="images/favcon.svg">
      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,7 +14,7 @@
 <body>
     <div class="body">
     
-    <header>
+     <header>
         <a href="index.html" class="top-logo">
             <div class="logo">
                 <img src="images/favcon.svg" alt="Logo" width="50" height="50">
@@ -21,20 +22,36 @@
             </div>
         </a>
 
-
         <div class="nav">
-            <ul>
-                <li><a href="project.html">My_Projects</a></li>
-                <li><a href="about.html" class="active">About_Me</a></li>
+            <ul id="dropNavi">
+                <li><a href="project.html" class="active">My_Projects</a></li>
+                <li><a href="about.html">About_Me</a></li>
                 <li><a href="contact.html">Contact_Me</a></li>
             </ul>
-
+            
+            
         </div>
-
+        <div class="hamburger" id="navBar">
+            <div class="ham-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="menu" id="menu">
+                    <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z">   
+                    </path>
+                </svg>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="menu" id="cancelMenu">
+                    <path d="M10.5859 12L2.79297 4.20706L4.20718 2.79285L12.0001 10.5857L19.793 2.79285L21.2072 4.20706L13.4143 12L21.2072 19.7928L19.793 21.2071L12.0001 13.4142L4.20718 21.2071L2.79297 19.7928L10.5859 12Z">
+                    </path>
+                </svg> -->
+            </div>
+            <ul id="dropNav">
+                <li><a href="project.html">My_Projects</a></li>
+                <li><a href="about.html">About_Me</a></li>
+                <li><a href="contact.html" class="">Contact_Me</a></li>
+            </ul>
+        </div>
     </header>
 
-    <div class="flex-container">
-        <div class="left">
+    <div class="flexx-container">
+        <div class="leftt">
             <div class="arrow-flex">
                 <div class="about-me">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="aboutme-icon">
@@ -97,13 +114,13 @@
         <div class="footer-left">
             <div class="left">
                 <a href="index.html">
-                    <h1>Technick-codes</h1>
+                    <h2>Technick-<span>code</span></h2>
                 </a>
             </div>
 
             <div class="nav-links">
                 <ul>
-                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="project.html">Project</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -113,8 +130,7 @@
         </div>
 
         <div class="social-icons">
-            
-                <div class="text">
+            <div class="text">
                     <h3>Socials</h3>
                 </div>
             <ul>
@@ -127,6 +143,6 @@
         </div>
     </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
