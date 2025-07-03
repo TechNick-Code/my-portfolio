@@ -372,6 +372,10 @@ footer {
 }
 
 @media (max-width: 426px){
+    body,
+    .body {
+        overflow-x: hidden;
+    }
     header {
         width: 100%;
         padding: 1em;
@@ -467,8 +471,6 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
-    
 
     .social-icons ul {
         margin-top: 1.5em
