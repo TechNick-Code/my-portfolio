@@ -3,7 +3,7 @@
     "ENGINEER",
   ];
 
-  let messageIndex = 0;
+  let messageIndex = 1;
   let charIndex = 0;
   const typingSpeed = 200; // milliseconds per character
   const pauseBetweenMessages = 2000; // pause before deleting

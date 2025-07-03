@@ -77,7 +77,6 @@ span {
 .nav ul {
     display: flex;
     gap: 2em;
-    padding: 0 1em;
     gap: 2.5em;
 }
 
