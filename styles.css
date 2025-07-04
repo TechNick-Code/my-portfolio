@@ -672,7 +672,7 @@ footer {
 
 @media screen and (max-width: 515px){
     .hero {
-        padding: 2em 1em;
+        padding: 0 1em;
         text-align: center;
     }
 
@@ -681,7 +681,8 @@ footer {
     }
 
     .hero h1 {
-        padding: 18px 0; 
+        padding: 18px 0;
+        min-height: 245px;
     }
 
     .hero .text {
@@ -696,7 +697,6 @@ footer {
 
     .text .left-text {
         width: 100%;
-        margin-top: 1em
     }
 
     .text a {
