@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: linear-gradient(to right, #f9f9f9, #e0f7fa); */
@@ -729,7 +733,7 @@ footer {
     }
 
     .my-skills {
-        padding: 1em;
+        padding: 2em 1em;
     }
 
     .my-skills .tools li {
@@ -739,6 +743,7 @@ footer {
 
     .assist {
         padding: 3em 1em;
+        margin: 2em 0 1em
     }
 
     .assist .card {
