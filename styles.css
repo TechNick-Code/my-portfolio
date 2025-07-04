@@ -667,7 +667,7 @@ footer {
     }
 
     .hero h1 {
-        padding: 12px 0; 
+        padding: 15px 0; 
     }
 
     .hero .text {
@@ -686,7 +686,8 @@ footer {
     }
 
     .text a {
-        width: 25%
+        width: 35%;
+        font-weight:500
     }
 
     .image-section .hero-image {
