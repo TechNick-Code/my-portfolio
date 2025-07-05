@@ -390,6 +390,7 @@ footer {
         overflow-x: hidden;
     }
     header {
+        position: sticky;
         width: 100%;
         padding: 1em;
     }
