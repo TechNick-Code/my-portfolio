@@ -45,7 +45,7 @@ body::before {
 }
 
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     background-color: #101828;
     display: flex;
