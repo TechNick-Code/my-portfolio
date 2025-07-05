@@ -54,7 +54,7 @@ header {
     height: 10vh;
     padding: 0 10em;
     z-index: 9999;
-    transition: top ease .3s;
+    transition: top ease .4s;
     border-bottom: 1px solid rgba(168, 168, 168, 0.282);
 }
 
@@ -110,7 +110,7 @@ span {
 
 .hero {
     width: 100%;
-    padding: 1em 10em;
+    padding: 3em 10em;
 }
 
 .hero h2 {
@@ -669,12 +669,12 @@ footer {
 
 @media screen and (max-width: 515px){
     .hero {
-        padding: 0 1em;
+        padding: 2em 1em;
         text-align: center;
     }
 
-    .hero h1 span {
-        margin-top: 15em
+    .hero h2 {
+        padding: 10px 0
     }
 
     .hero h1 {
