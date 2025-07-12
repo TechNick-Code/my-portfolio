@@ -119,6 +119,10 @@ span {
     height: 8vh
 }
 
+.up-icon {
+    display: none;
+}
+
 .get-in-touch {
     display: flex;
     padding: 3em 10em 2em;
@@ -342,6 +346,7 @@ footer {
     font-size: 20px
 }
 
+
 @media screen and (max-width: 768px) {
     header{
         padding: 0 2em
@@ -382,7 +387,28 @@ footer {
     .text {
         display: none;
     }
+
+    /* .up-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4em;
+        height: 4em;
+        border-radius: 10px;
+        position: fixed;
+        right: 2em;
+        z-index: 9999;
+        box-shadow: 0 0 20px 2px rgb(125, 139, 211);
+        background: linear-gradient(#1a273f, #1a273f);
+    }
+
+    .up-icon svg {
+        width: 2em;
+        height: 2em;
+        color: #fff;
+    } */
 }
+
 
 @media screen and (max-width: 515px){
     body,
