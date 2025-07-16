@@ -165,7 +165,7 @@ span {
     padding: 15px;
     margin-top: 10px;
     background-color: #a5a5a524;
-    border: none;
+    border: 1.5px solid #4d85e638;
     border-radius: 7px;
     font-size: 16px;
     letter-spacing: 1px;
@@ -257,6 +257,11 @@ input:focus {
     letter-spacing: 1px;
  }
 
+ .socials a:hover {
+    color: #fff;
+    transition: all ease .3s;
+ }
+
 .right-field .quote {
     background-color: #a5a5a51a;
     padding: 2.2em;
@@ -283,6 +288,7 @@ footer {
     justify-content: space-between;
     padding: 4em 10em;
     color: #fff;
+    margin-top: 4em;
     border-top: 1px solid rgba(168, 168, 168, 0.282);
 }
 
@@ -311,7 +317,7 @@ footer {
 
 .footer-left .nav-links ul {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     margin-bottom: 1em
 }
 
@@ -322,6 +328,12 @@ footer {
 .footer-left .nav-links ul li a {
     text-decoration: none;
     color: #ffffff72;
+}
+
+.footer-left .nav-links ul li a:hover,
+.social-icons ul li a:hover {
+    color: #fff;
+    transition: all ease .3s;
 }
 
 .social-icons {
