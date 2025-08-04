@@ -23,24 +23,47 @@ body {
 body::after {
     position: fixed;
     content: "";
-    width: 20vw;
-    height: 30vh;
+    width: 30vw;
+    height: 40vh;
     border-radius: 50%;
-    background-color: rgba(66, 222, 92, 0.463);
+    background-color: rgba(66, 222, 92, 0.559);
     top: 15%;
     left: 5%;
-    z-index: -99
+    z-index: -99;
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
 body::before {
     position: fixed;
     content: "";
-    width: 20vw;
-    height: 30vh;
+    width: 30vw;
+    height: 40vh;
     border-radius: 50%;
-    background-color: rgba(125, 139, 211, 0.625);
+    background-color: rgba(125, 139, 211, 0.701);
     top: 40%;
     right: 10%;
-    z-index: -99
+    z-index: -99;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
 }
 
 header {
@@ -57,8 +80,6 @@ header {
     transition: top ease .4s;
     border-bottom: 1px solid rgba(168, 168, 168, 0.282);
 }
-
-
 
 .top-logo{
     text-decoration: none;
@@ -153,6 +174,22 @@ br {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.text a p {
+    animation: bounce 0.6s infinite;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-35%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
 }
 
 .text a::after {
