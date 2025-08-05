@@ -350,11 +350,36 @@ br {
     padding: 1.4em 6em;
     background-color: #a5a5a51a;
     border-radius: 7px;
-    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation: puls3e 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+.my-skills .tools .html:hover, 
+.my-skills .tools .git:hover {
+    box-shadow: 0 0 20px 2px rgba(255, 92, 32, 0.629);
+}
 
-@keyframes pulse {
+.my-skills .tools .css:hover {
+    box-shadow: 0 0 20px 2px rgba(0, 123, 255, 0.629);
+}
+
+.my-skills .tools .js:hover {
+    box-shadow: 0 0 20px 2px rgba(242, 255, 0, 0.629);
+}
+
+.my-skills .tools .react:hover,
+.my-skills .tools .tailwind:hover {
+    box-shadow: 0 0 20px 2px rgba(0, 187, 255, 0.629);
+}
+
+.my-skills .tools .figma:hover {
+    box-shadow: 0 0 20px 2px rgba(0, 255, 55, 0.629);
+}
+
+.my-skills .tools .github:hover {
+    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.629);
+}
+
+@keyframes pulsue3e {
   0%, 100% {
     opacity: 1;
   }
