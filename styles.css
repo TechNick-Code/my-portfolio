@@ -350,6 +350,17 @@ br {
     padding: 1.4em 6em;
     background-color: #a5a5a51a;
     border-radius: 7px;
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .7;
+  }
 }
 
 .tools img {
