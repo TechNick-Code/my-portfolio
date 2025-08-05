@@ -66,6 +66,28 @@ body::before {
   }
 }
 
+.navigate-up {
+    display: none;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    padding: 1em;
+    background-color: #0F1B2F;
+    color: white;
+    border-radius: 10%;
+    z-index: 9999;
+    transition: all ease .3s;
+    box-shadow: 0 0 10px 2px rgb(125, 139, 211);
+}
+
+.navigate-up:active {
+    transform: scale(0.9);
+}
+
+svg {
+    width: 1.4em;
+}
+
 header {
     position: sticky;
     top: 0;
