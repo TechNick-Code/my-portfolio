@@ -28,7 +28,8 @@
       messageIndex = (messageIndex + 1) % messages.length;
       setTimeout(typeMessage, typingSpeed);
     }
-  }
+  };
+
 
   // Start the loop
   typeMessage();
