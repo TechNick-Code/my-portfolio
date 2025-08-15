@@ -91,6 +91,7 @@ svg {
 header {
     position: sticky;
     top: 0;
+    left: 0;
     background-color: #101828;
     display: flex;
     justify-content: space-between;
@@ -763,6 +764,11 @@ footer {
 }
 
 @media screen and (max-width: 515px){
+    header {
+        position: sticky;
+        top: 0;
+    }
+    
     .hero {
         padding: 2em 1em;
         text-align: center;
