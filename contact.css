@@ -519,6 +519,7 @@ footer {
 
     .hamburger li a {
         color: #fff;
+        border: 1px solid rgb(55, 52, 91);
         text-decoration: none;
         display: flex;
         padding: 1.3em 2em;
@@ -528,7 +529,6 @@ footer {
         border-radius: 10px;
         display: flex;
         /* width: 20em; */
-        border: none;
     }
 
     .ico {
