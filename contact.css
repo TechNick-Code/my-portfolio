@@ -475,12 +475,12 @@ footer {
         display:flex;
         position: absolute;
         top: 4em;
-        right: -26em;
+        right: -76em;
         /* right: 0; */
         width: 24.6em;
         height: 90vh;
         list-style: none;
-        background-color: rgba(19, 23, 55, 0.326);
+        background-color: rgba(27, 55, 19, 0.326);
         flex-direction: column;
         gap: 0.4em;
         padding: 1em 0.5em;
