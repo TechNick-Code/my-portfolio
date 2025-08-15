@@ -475,21 +475,20 @@ footer {
         display:flex;
         position: absolute;
         top: 2.5em;
-        right: -26em;
+        /* right: -26em; */
+        right: 0;
         width: 24.6em;
-        height: 290px;
+        height: 100vh;
         list-style: none;
-        background-color: rgb(125, 139, 211);
+        background-color: rgba(255, 255, 255, 0.201);
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         gap: 1em;
-        padding: 1em 100%;
+        padding: 1em 0.5em;
         overflow: hidden;
         border-radius: 10px 0 10px 10px;
         z-index: 999;
         transition: right 0.3s cubic-bezier(.77,0,.18,1);
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(1em);
     }
     
     #dropNav:not(.active) {
@@ -500,30 +499,46 @@ footer {
         transition: right 0.3s cubic-bezier(.77,0,.18,1);
         display: flex;
         right: 0;
-        height: 290px
+        height: 90vh;
+    }
+
+    .home,
+    .about,
+    .contact,
+    .project,
+    .resume {
+        width: 2em;
+        height: 2em;
     }
 
     .hamburger li {
         display: block;
         padding-bottom: 5px;
-        text-align: center;
+        text-align: left;
     }
 
     .hamburger li a {
         color: #fff;
         text-decoration: none;
         display: flex;
-        padding: 0.7em 2em;
-        justify-content: center;
+        padding: 1em 2em;
         align-items: center;
     }
+
+    .ico {
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 4px
+    }
+
     #dropNav .active,
     .hamburger li a:hover {
         background-color: #101828;
         color: #fff;
         border-radius: 10px;
         display: flex;
-        width: 20em;
+        /* width: 20em; */
         border: none;
     }
 
