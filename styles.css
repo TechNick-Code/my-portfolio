@@ -132,7 +132,6 @@ span {
 .nav ul {
     display: flex;
     gap: 2em;
-    gap: 2.5em;
 }
 
 .nav ul li {
@@ -150,6 +149,21 @@ span {
 .nav li a:hover {
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
+}
+
+.resume {
+    background-color: rgb(125, 139, 211);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px
+}
+
+.resume:hover{
+    background-color: #fff;
+    transition: all ease .3s;
+    color: #101828;
+    transform: scale(1.05)
 }
 
 .hero {
