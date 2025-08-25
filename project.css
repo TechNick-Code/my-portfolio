@@ -229,7 +229,11 @@ span {
     border-radius: 1em;
     gap: 1em;
     padding: 1.5em;
-    color: #fff
+    color: #fff;
+    max-height: 50vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
 }
 
 .text-card h3 {
@@ -243,9 +247,7 @@ span {
 }
 
 .gridd {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 1em;
+    display: block
 }
 
 .key {
