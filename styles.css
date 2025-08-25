@@ -88,6 +88,25 @@ svg {
     width: 1.4em;
 }
 
+.hidden {
+    opacity : 0;
+    filter: blur(5px);
+    transform: translateY(-100px);
+    transition: all ease .2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden {
+        transition: none;
+    }
+}
+
 header {
     position: sticky;
     top: 0;
@@ -174,6 +193,8 @@ span {
 .hero h2 {
     margin: 0 0 -1em;
     color: #fff;
+    display:flex;
+    justify-content: left;
 }
 
 .hero h1 {
