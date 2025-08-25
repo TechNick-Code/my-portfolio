@@ -475,10 +475,18 @@ footer {
         display: none
     }
 
+    .resume {
+        display: none;
+    }
+
     .hamburger {
         display: flex;
         flex-direction: column;
         position: relative;
+    }
+
+    .menu.active {
+        background-color: red;
     }
 
     .menu {
