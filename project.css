@@ -184,7 +184,7 @@ span {
 .section {
     color: #0f2f1f;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 2rem;
     justify-content: flex-start;
 }
@@ -201,11 +201,20 @@ span {
 }
 
 .image {
-    background-image: url(images/snowman.jpg);
+    background-image: url(images/landing-page.png);
     width: 100%;
     height: 40vh;
     border-radius: 1em;
-    background-position: 10% 50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image2 {
+    background-image: url(images/landing-page2.png);
+    width: 100%;
+    height: 40vh;
+    border-radius: 1em;
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -225,6 +234,32 @@ span {
 
 .text-card h3 {
     margin-bottom: 0.5em;
+}
+
+.key-features {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #fff;
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+}
+
+.key {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.small-arrow {
+    width: 20px;
+    height: 20px;
+    color: rgb(125, 139, 211);
 }
 
 .first-card:hover {
