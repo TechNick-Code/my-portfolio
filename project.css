@@ -228,7 +228,9 @@ span {
     background-repeat: no-repeat;
 }
 
-.image:hover {
+.image:hover,
+.image2:hover, 
+.image3:hover {
     transform: scale(1.05);
     transition: all ease .5s;
 }
