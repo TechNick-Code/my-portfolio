@@ -168,7 +168,8 @@ span {
     display: flex;
 }
 
-.here-are-some {
+.here-are-some,
+.finished-project {
     color: rgb(168, 168, 168);
 }
 
@@ -221,7 +222,16 @@ span {
 .image3 {
     background-image: url(images/elo-water.png);
     width: 100%;
-    height: 60vh;
+    height: 40vh;
+    border-radius: 1em;
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image4 {
+    background-image: url(images/ej-eatery.png);
+    width: 100%;
+    height: 40vh;
     border-radius: 1em;
     background-position: 0% 0%;
     background-size: cover;
@@ -230,7 +240,8 @@ span {
 
 .image:hover,
 .image2:hover, 
-.image3:hover {
+.image3:hover,
+.image4:hover {
     transform: scale(1.05);
     transition: all ease .5s;
 }
